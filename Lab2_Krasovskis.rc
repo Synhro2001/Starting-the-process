@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 320, 109
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Process control"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDOK,7,96,52,12
+    GROUPBOX        "",IDC_STATIC,7,3,312,105
+    LTEXT           "Command line",IDC_STATIC,16,4,49,8
+    EDITTEXT        IDC_COMMANDLINE,14,35,130,11,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,147,35,14,11
+    PUSHBUTTON      "Start",IDC_START,15,51,42,11
+    PUSHBUTTON      "Terminate",IDC_TERMINATE,59,51,54,11
+    LTEXT           "Process information",IDC_STATIC,181,3,68,9
+    LTEXT           "Not running",IDC_STATE,216,22,88,11,SS_SUNKEN
+    LTEXT           "Unknown",IDC_PID,216,38,88,11,SS_SUNKEN
+    LTEXT           "Unknown",IDC_STARTTIME,216,58,88,11,SS_SUNKEN
+    LTEXT           "Unknown",IDC_FINISHTIME,216,77,88,11,SS_SUNKEN
+    LTEXT           "State",IDC_STATIC,178,24,27,8
+    LTEXT           "PID",IDC_STATIC,183,38,24,8
+    LTEXT           "Start time",IDC_STATIC,175,57,35,11
+    LTEXT           "Finish time",IDC_STATIC,173,77,39,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
